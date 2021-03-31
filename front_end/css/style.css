@@ -1,0 +1,563 @@
+body{
+    font-family: arial;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.product-items{
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-top: 10px;
+}
+.product-item{
+    float: left;
+    width: 23%;
+    margin: 0px 0px 20px 17px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    
+
+}
+.product-item label{
+    font-weight: bold;
+}
+.product-item p{
+    margin: 0;
+    line-height: 26px;
+    max-height: 52px;
+    overflow: hidden;
+}
+.product-price{
+    color: red;
+    font-weight: bold;
+}
+.product-img{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.product-item img{
+    max-width: 100%;
+}
+.product-item ul{
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #ccc;
+}
+.product-item ul li{
+    float: left;
+    width: 33.3333%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-right: 0;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+}
+.clear-both{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.buy-button{
+    text-align: right;
+    margin-top: 10px;
+}
+.buy-button a{
+    background: #444;
+    padding: 5px;
+    color: #fff;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.banner{
+	text-align: center;
+	background-color: red;
+	width: 100%;
+	height: 80px
+}
+.header{
+	width: 100%;
+}
+.button{
+	margin-right: 30px;
+}
+.banner p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	padding: 0px;
+}
+.menu{
+	background-color: red;
+	width: 100%;
+	height: 35px;
+}
+.menu ul li {
+	float: left;
+    list-style: none;
+    padding: 0px 40px 20px 82px;
+    line-height: 30px;
+    margin-left: -40px;
+}
+.menu ul li a{
+	font-size: 22px;
+	text-decoration: none;
+	color:#fff;
+}
+.form-inline{
+	    margin-left: 400px;
+        margin-top: -50px;
+}
+
+.iteam_button{
+	outline: none;
+	padding: 10px 20px;
+	background-color: #fff;
+	border: 2px solid #aaa;
+	border-radius: 30px;
+	font-weight: 700;
+	color: #aaa;
+	cursor: pointer;
+	float: right;
+    margin-top: -45px;
+}
+
+.body{
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+}
+.left{
+	width: 30%;
+}
+.right{
+	width: 68%;
+}
+
+
+
+.row .col{
+	border: 5px solid #fff;
+}
+/*FOOTER*/
+#footer-wp #foot-body{ padding: 10px 0px;}
+#footer-wp #foot-body .block{ float: left; width: 25%; padding-left: 30px;}
+#footer-wp #foot-body .block:first-child{ padding-left: 0;}
+#info-company .title{
+    font-size: 28px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    color: #da1818;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#info-company .desc, #newfeed .desc{
+    font-family: 'Roboto Light';
+    text-align: justify;
+    color: #6d6d6d;
+    margin-bottom: 25px;
+}
+.menu-ft .title, #newfeed .title{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.menu-ft .list-item li{ margin-bottom: 10px;}
+.menu-ft .list-item li:last-child{ margin-bottom: 0;}
+.menu-ft .list-item li p{
+    position: relative;
+    color: #000;
+    font-family: 'Roboto Light';
+    padding-left: 25px;
+}
+.menu-ft .list-item li:nth-child(1) p:before, .menu-ft .list-item li:nth-child(2) p:before, .menu-ft .list-item li:nth-child(3) p:before{
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 0;
+}
+.menu-ft .list-item li:nth-child(1) p:before{ content: '\f041';}
+.menu-ft .list-item li:nth-child(2) p:before{ content: '\f095';}
+.menu-ft .list-item li:nth-child(3) p:before{ content: '\f0e0';}
+#info-shop .list-item li a{
+    position: relative;
+    color: #000;
+    font-family: 'Roboto Light';
+    padding-left: 20px;
+}
+#info-shop .list-item li a:before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #da1818;
+    transform: translateY(-50%);
+}
+#form-reg #email{
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#form-reg #sm-reg{
+    display: block;
+    width: 100%;
+    background: #da1818;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto Medium';
+    line-height: normal;
+}
+#form-reg #sm-reg:hover{ background: #c10f0f;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+#foot-bot{
+    background: #da1818;
+    text-align: center;
+    padding: 10px 0px;
+}
+#foot-bot #copyright{
+    color: #fff;
+    line-height: normal;
+    font-family: 'Roboto Light';
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+  *{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #112d42;
+}
+section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height: 100%;
+    background: #03a9f4;
+}
+section .container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display:flex;
+    z-index: 100;
+}
+section .container .containerinfo{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+}
+section .container .containerinfo h2{
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+section .container .containerinfo li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+section .container .containerinfo li span{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+    font-size: 20px;
+}
+/*Hiệu Ứng Hover Cho Thẻ Li*/
+section .container .containerinfo li:hover span{
+    opacity: 1;
+}
+section .container .containerinfo .sci{
+    position: relative;
+    display:flex;
+}
+section .container .containerinfo .sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+section .container .containerinfo .sci li a{
+    text-decoration: none;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 32px;
+}
+/*Hiệu Ứng Hover Icon*/
+section .container .containerinfo .sci li:hover a{
+    opacity: 1;
+}
+section .container .containerForm{
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    margin-left: 150px;
+    padding-left: 250px;
+    width: calc(100% - 150px);
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+section .container .containerForm h2{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+section .container .containerForm .formBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+section .container .containerForm .formBox .inputBox{
+    position: relative;
+    margin: -23px 0 35px 0;
+}
+section .container .containerForm .formBox .inputBox.w50{
+    width: 47%;
+}
+section .container .containerForm .formBox .inputBox.w100{
+    width: 100%;
+}
+section .container .containerForm .formBox .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+section .container .containerForm .formBox .inputBox textarea{
+    min-height: 120px;
+}
+section .container .containerForm .formBox .inputBox input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+section .container .containerForm .formBox .inputBox input[type="submit"]:hover{
+    background:  #ff568c;
+}
+section .container .containerForm .formBox .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none;
+}
+section .container .containerForm .formBox .inputBox input:focus ~ span,
+section .container .containerForm .formBox .inputBox textarea:focus ~ span,
+section .container .containerForm .formBox .inputBox input:valid ~ span,
+section .container .containerForm .formBox .inputBox textarea:valid ~ span{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff568c
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .row .column:hover{
+    color:red;
+    font-weight:bold;
+    }

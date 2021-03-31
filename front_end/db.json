@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop Hp 250 G7",
+      "image": "https://firebasestorage.googleapis.com/v0/b/shoptd-51eb8.appspot.com/o/images%2F5890_zephyrus_s_gx502_11_compressed_1.jpg?alt=media&token=86ed1bc7-ad0c-4ed5-ac8b-d4b24e6eb544",
+      "categoryId": "1",
+      "price": "14,300,000",
+      "description": "Đánh giá chi tiết HP 250 G7 258M8PA - Intel Core i5 Được đánh giá rất cao về thiết kế di động, chắc chắn cùng với đó là một giá thành tầm trung cực tốt trang bị cho mình một cấu hình mạnh mẹ. Xứng đáng là một trong những chiếc laptop văn phòng hot nhất tại thời điểm hiện tại. Cấu hình khỏe với Chip Intel i5 đời 10 Thiết kế chắc chắn, bền bỉ, tính ổn định cao Màn hình 15.6 inch Full HD Bảo hành 12 tháng chính hãng HP Mới 100% Fullbox, giá tốt nhất thị trường",
+      "quantity": 51117
+    },
+    {
+      "id": "2",
+      "name": "Dell Latitude E5450",
+      "image": "https://firebasestorage.googleapis.com/v0/b/shoptd-51eb8.appspot.com/o/images%2F5937_3952_mau_noi_bat_dell_latitude_e5450.png?alt=media&token=b25557f9-c75f-420d-8a96-9b180ba591ef",
+      "categoryId": "2",
+      "price": "6,400,000 ",
+      "status": "Còn hàng",
+      "description": "Bộ xử lý: Intel Core i3 5010U Bộ nhớ trong: 4GB DDR3L Ổ đĩa cứng: SSD 120GB Cạc màn hình: Intel HD Graphics 5500 Màn hình: 14 inch HD Cổng kết nối: 3 x USB 3.0; VGA; HDMI; LAN/RJ45; 3.5mm Audio Jack; Multi Card Reader Kích thước: 334.9 x 231 x 22.85mm Trọng lượng: 1.81kg",
+      "quantity": 51117
+    },
+    {
+      "id": "3",
+      "name": "Laptop Asus X509FJ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/shoptd-51eb8.appspot.com/o/images%2F4624_x509fj_ej053t_3.jpg?alt=media&token=3fae74ed-eb74-4c29-a184-4057dff79eab",
+      "categoryId": "1",
+      "price": "13,290,000 ",
+      "status": "Còn hàng",
+      "description": "Cho dù là công việc hay giải trí, ASUS X509FJ EJ053T là chiếc máy tính xách tay hướng tới người dùng văn phòng hoặc các bạn sinh viên yêu thích sự hiện đại, tinh tế,",
+      "quantity": 51117
+    },
+    {
+      "id": "4",
+      "name": "ASUS VivoBook S433EA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/shoptd-51eb8.appspot.com/o/images%2F5261_dell_inspiron_n3593c_p75f013.jpg?alt=media&token=d57e9ec9-74d5-484d-9ade-8632542e2e91",
+      "categoryId": "1",
+      "price": "1238525",
+      "status": "Còn hàng",
+      "description": " ASUS VivoBook S433EA, với thiết kế nhỏ gọn cùng cấu hình mạnh mẽ của mình sẽ khiến bạn ấn tượng khi sử dụng",
+      "quantity": 51117
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "ASUS"
+    },
+    {
+      "id": "2",
+      "name": "GAMING"
+    },
+    {
+      "id": "3",
+      "name": "DELL"
+    },
+    {
+      "id": "4",
+      "name": "MACBOOK"
+    }
+  ],
+  "register": [
+    {
+      "id": "1",
+      "username": "trungdoan",
+      "password": "12345"
+    }
+  ]
+}
