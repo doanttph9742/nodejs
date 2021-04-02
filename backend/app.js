@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import productRoutes from './routes/product';
 import categoryRoutes from './routes/category';
+import signupRoutes from './routes/auth';
 import cors from 'cors';
 import mongoose from 'mongoose';
 //
@@ -24,6 +25,7 @@ mongoose.connection.on('Error',err =>{
 //routes
 app.use('/api', productRoutes);
 app.use('/api', categoryRoutes);
+app.use('/api',signupRoutes);
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
