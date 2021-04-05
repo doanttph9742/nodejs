@@ -6,12 +6,14 @@ import categoryRoutes from './routes/category';
 import signupRoutes from './routes/auth';
 import cors from 'cors';
 import mongoose from 'mongoose';
+import expressValidator from 'express-validator';
 //
 dotenv.config();
 const app = express();
 //middleware
 app.use(bodyParser.json());
 app.use(cors());
+app.use(expressValidator());
 //connection
 mongoose.connect(process.env.MONGO_URL,{
         useNewUrlParser:false,
@@ -26,6 +28,7 @@ mongoose.connection.on('Error',err =>{
 app.use('/api', productRoutes);
 app.use('/api', categoryRoutes);
 app.use('/api',signupRoutes);
+
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {

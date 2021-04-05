@@ -32,10 +32,27 @@ const userSchema =mongoose.Schema({
     // }
 },{timestamps:true})
 
-userSchema.virtual('password')//tạo ra password qua virtual trong mooge
+userSchema.virtual('password')//tạo ra trường ảo
     .set(function (password) {//lấy password
         this._password = password
+        
         this.salt = uuidv1()//ramdom 1 chuổi nào đó
         this.hashed_password =this.encrytPassword(password)//mã hóa password r gán vò hashed_pasword
     })
+    userSchema.methods = {
+    authenticate: function (plainText) {
+        return this.encrytPassword(plainText) === this.hashed_password;
+    },
+    encrytPassword: function (password) {
+        if (!password) return '';
+        try {
+            return crypto
+                .createHmac('sha1', this.salt)
+                .update(password)
+                .digest('hex')
+        } catch (error) {
+            return "";
+        }
+    }
+}
 module.exports =mongoose.model("User",userSchema)
